@@ -1,12 +1,12 @@
 #loginForm {
 	position: fixed;
-	background-image: url("../images/background_river_fork.jpg");
+	background-image: url("../images/background_river_bend.jpg");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 }
 
 .panel {
-	background-color: rgba(43,50,58,0.5);
+	background-color: rgba(34,34,34,0.75);
 }
 
 .panel-default {
@@ -21,7 +21,7 @@
 }
 
 .login-panel input {
-	background: rgba(43,50,58,0.8);
+	background: rgba(34,34,34,1);
 	border: 0px;
 }
 
