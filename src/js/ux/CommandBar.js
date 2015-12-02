@@ -143,10 +143,10 @@ ogrid.CommandBar = ogrid.Class.extend({
                 me._getRequiredAccess(ogrid.SecuredFunctions.MANAGE),
                 '#ogrid-manage-btn',
                 accessList);
-            me._secureFunction(
-                me,
-                me._getRequiredAccess(ogrid.SecuredFunctions.ADVANCED_SEARCH),
-                '#ogrid-advanced-btn', accessList);
+            //me._secureFunction(
+            //    me,
+            //    me._getRequiredAccess(ogrid.SecuredFunctions.ADVANCED_SEARCH),
+            //    '#ogrid-advanced-btn', accessList);
         });
 
         //hide both admin and advanced search panels
@@ -175,7 +175,7 @@ ogrid.CommandBar = ogrid.Class.extend({
 
     _hideAllFunctions: function() {
         $('#ogrid-manage-btn').addClass('hide');
-        $('#ogrid-advanced-btn').addClass('hide');
+        //$('#ogrid-advanced-btn').addClass('hide');
     },
 
     _userHasFunctionAccess: function(fnList, accessList) {
