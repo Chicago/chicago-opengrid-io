@@ -100,6 +100,10 @@ ogrid.Main = ogrid.Class.extend({
             {map: this._map}
         );
 
+        if(!ogrid.Config.service.autologin) {
+            $('#ogrid-menu .dropdown').attr("style", "visibility: block");
+        }
+
         //nav menu tweaks
         this._setNavBarBehavior();
 
