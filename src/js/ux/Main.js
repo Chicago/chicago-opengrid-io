@@ -101,7 +101,7 @@ ogrid.Main = ogrid.Class.extend({
         );
 
         if(!ogrid.Config.service.autologin) {
-            $('#ogrid-menu .dropdown').attr("style", "visibility: block");
+            $( '#ogrid-menu .dropdown' ).removeClass( "hide" );
         }
 
         //nav menu tweaks
